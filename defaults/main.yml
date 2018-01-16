@@ -40,7 +40,7 @@ oracle_dba_group:
 # FILE_SYSTEM_STORAGE | ASM_STORAGE
 oracle_storage_type: FILE_SYSTEM_STORAGE
 
-oracle_installer_path: /Users/kosala/software
+oracle_installer_path: files/
 
 # array  os images avaialbe
 oracle_images:
@@ -48,6 +48,8 @@ oracle_images:
     - { image: "{{ oracle_installer_path }}/linux.x64_11gR2_database_2of2.zip", version: "11.2.0.1" } 
     - { image: "{{ oracle_installer_path }}/p13390677_112040_Linux-x86-64_1of7.zip", version: "11.2.0.4" }
     - { image: "{{ oracle_installer_path }}/p13390677_112040_Linux-x86-64_2of7.zip", version: "11.2.0.4" } 
+    - { image: "{{ oracle_installer_path }}/linuxamd64_12102_database_1of2.zip", version: "12.1.0.2" }
+    - { image: "{{ oracle_installer_path }}/linuxamd64_12102_database_2of2.zip", version: "12.1.0.2" }
     - { image: "{{ oracle_installer_path }}/linuxx64_12201_database.zip", version: "12.2.0.1" }
 
 oracle_pv: /dev/sdb
